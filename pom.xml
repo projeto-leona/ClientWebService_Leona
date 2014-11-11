@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.leona</groupId>
-    <artifactId>ClientWebservice</artifactId>
+    <artifactId>ClientWebService</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>ClientWebservice</name>
+    <name>ClientWebService</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -97,10 +97,10 @@
                         </goals>
                         <configuration>
                             <wsdlFiles>
-                                <wsdlFile>localhost_8080/Leona_Station/ControllerServices.wsdl</wsdlFile>
+                                <wsdlFile>localhost_8080/LeonaStation/ControllerServices.wsdl</wsdlFile>
                             </wsdlFiles>
                             <packageName></packageName>
-                            <wsdlLocation>http://localhost:8080/Leona_Station/ControllerServices?wsdl</wsdlLocation>
+                            <wsdlLocation>http://localhost:8080/LeonaStation/ControllerServices?wsdl</wsdlLocation>
                             <staleFile>${project.build.directory}/jaxws/stale/ControllerServices.stale</staleFile>
                         </configuration>
                         <id>wsimport-generate-ControllerServices</id>

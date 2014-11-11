@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://localhost:8080/Leona_Station/ControllerServices?wsdl" uri="wsdl/localhost_8080/Leona_Station/ControllerServices.wsdl"/>
-    <system systemId="http://localhost:8080/Leona_Station/ControllerServices?xsd=1" uri="wsdl/localhost_8080/Leona_Station/ControllerServices.xsd_1.xsd"/>
+    <system systemId="file:/C:/GitHub/ClientWebService_Leona/src/wsdl/localhost_8080/Leona_Station/ControllerServices.wsdl" uri="wsdl/ControllerServices.wsdl"/>
+    <system systemId="http://localhost:8080/LeonaStation/ControllerServices?wsdl" uri="wsdl/localhost_8080/LeonaStation/ControllerServices.wsdl"/>
+    <system systemId="http://localhost:8080/LeonaStation/ControllerServices?xsd=1" uri="wsdl/localhost_8080/LeonaStation/ControllerServices.xsd_1.xsd"/>
 </catalog>
